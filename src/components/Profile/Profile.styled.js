@@ -13,28 +13,28 @@ export const ProfileWrap = styled.div`
 
 `;
 
-export const ProfileDescription = styled.div`
+export const Description = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
 `;
 
-export const ProfileImg = styled.img`
+export const Img = styled.img`
   width: 200px;
   border-radius: 50%;
 `;
 
-export const ProfileName = styled.p`
+export const Name = styled.p`
   font-weight: bold;
   margin: 30px 0px 10px 0px;
 `;
 
-export const ProfileTag = styled.p`
+export const Tag = styled.p`
   margin: 0px 0px 10px 0px;
   color: #808080;
 `;
 
-export const ProfileLocation = styled.p`
+export const Location = styled.p`
   margin: 0px 0px 10px 0px;
 `;
 
@@ -47,7 +47,7 @@ export const StatsList = styled.ul`
   padding: 0;
 `;
 
-export const StatsItem = styled.li`
+export const Item = styled.li`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -55,8 +55,8 @@ export const StatsItem = styled.li`
   width: 100%;
 `;
 
-export const StatsListLabel = styled.span``;
+export const Label = styled.span``;
 
-export const StatsListQuantity = styled.span`
+export const Quantity = styled.span`
   font-weight: bold;
 `;
