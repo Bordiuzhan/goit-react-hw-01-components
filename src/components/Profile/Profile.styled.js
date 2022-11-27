@@ -1,11 +1,16 @@
 import styled from 'styled-components';
 
 export const ProfileWrap = styled.div`
-  background: white;
-  border: 3px solid black;
-  margin: 5px;
-  margin: auto;
-  width: 50%;
+  padding-top: 20px;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3),
+    0 1px 3px 1px rgba(60, 64, 67, 0.15);
+}
+
 `;
 
 export const ProfileDescription = styled.div`
@@ -26,6 +31,7 @@ export const ProfileName = styled.p`
 
 export const ProfileTag = styled.p`
   margin: 0px 0px 10px 0px;
+  color: #808080;
 `;
 
 export const ProfileLocation = styled.p`
@@ -45,7 +51,7 @@ export const StatsItem = styled.li`
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid black;
+  border: 1px solid #808080;
   width: 100%;
 `;
 
