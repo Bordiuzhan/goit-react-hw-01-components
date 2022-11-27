@@ -25,7 +25,7 @@ export const Status = styled.span`
   height: 10px;
   margin-right: 10px;
   background: ${p => {
-    return p.isOnline ? `red` : `green`;
+    return p.isOnline ? `green` : `red`;
   }};
 `;
 
