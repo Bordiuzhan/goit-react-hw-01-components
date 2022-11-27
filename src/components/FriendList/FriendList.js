@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { List, Item, Status, Avatar, Name } from './FriendList.styled';
 
 export const FriendList = ({ friends }) => {
@@ -12,4 +13,13 @@ export const FriendList = ({ friends }) => {
       ))}
     </List>
   );
+};
+
+FriendList.propTypes = {
+  friends: PropTypes.shape({
+    id: PropTypes.number.isRequired,
+    avatar: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
+    isOnline: PropTypes.bool.isRequired,
+  }),
 };

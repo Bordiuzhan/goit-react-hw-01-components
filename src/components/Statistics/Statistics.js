@@ -10,3 +10,8 @@ export const Statistics = ({ data, title }) => {
     </StatisticsSection>
   );
 };
+
+Statistics.propTypes = {
+  data: PropTypes.array.isRequired,
+  title: PropTypes.string,
+};

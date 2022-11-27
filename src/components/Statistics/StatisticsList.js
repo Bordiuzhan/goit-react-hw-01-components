@@ -18,3 +18,11 @@ export const StatisticsLists = ({ data }) => {
     </StatisticsList>
   );
 };
+
+StatisticsLists.propTypes = {
+  data: PropTypes.shape({
+    id: PropTypes.string.isRequired,
+    label: PropTypes.string.isRequired,
+    percentage: PropTypes.number.isRequired,
+  }),
+};
