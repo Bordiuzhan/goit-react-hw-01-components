@@ -5,6 +5,7 @@ import transactions from '../dataJson/transactions';
 import { Profile } from './Profile/Profile';
 import { Statistics } from './Statistics/Statistics';
 import { FriendList } from './FriendList/FriendList';
+import { TransactionHistory } from './Transaction/Transaction';
 
 export const App = () => {
   return (
@@ -17,6 +18,9 @@ export const App = () => {
       </div>
       <div>
         <FriendList friends={friends} />;
+      </div>
+      <div>
+        <TransactionHistory items={transactions} />;
       </div>
     </>
   );
