@@ -16,6 +16,7 @@ export const App = () => {
       </div>
       <div>
         <Statistics title="Upload stats" data={data}></Statistics>
+        <Statistics data={data}></Statistics>
       </div>
       <div>
         <FriendList friends={friends} />
